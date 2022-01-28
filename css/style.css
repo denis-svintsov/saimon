@@ -1021,7 +1021,7 @@ body._lock {
 
    flex-wrap: wrap;
    opacity: 0;
-   visibility: 0;
+   visibility: hidden;
    position: absolute;
    top: 0;
    left: -200%;
@@ -1070,6 +1070,7 @@ body._lock {
    height: 100%;
    object-fit: cover;
    border-radius: 50%;
+   border: 1px solid #000;
 }
 .item-influencers__image:before {
    content: "";
