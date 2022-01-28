@@ -10,6 +10,20 @@ window.addEventListener("DOMContentLoaded", () => {
          iconMenu.classList.toggle('_active');
          menuBody.classList.toggle('_active');
       });
+      document.querySelectorAll('.menu__item').forEach((item) =>
+         item.addEventListener("click", () => {
+            document.body.classList.remove('_lock');
+            iconMenu.classList.remove('_active');
+            menuBody.classList.remove('_active');
+         })
+      );
+      document.querySelectorAll('.menu__btn').forEach((item) =>
+         item.addEventListener("click", () => {
+            document.body.classList.remove('_lock');
+            iconMenu.classList.remove('_active');
+            menuBody.classList.remove('_active');
+         })
+      );
    }
 
    //SlideToggle

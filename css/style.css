@@ -1727,8 +1727,8 @@ body._lock {
       display: block;
       z-index: 5;
       position: relative;
-      width: 30px;
-      height: 18px;
+      width: 40px;
+      height: 28px;
       cursor: pointer;
    }
    .icon-menu span,
