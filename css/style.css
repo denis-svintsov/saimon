@@ -352,7 +352,7 @@ body._lock {
 .footer__info {
 }
 .footer__logo {
-   display: block;
+   display: inline-block;
    color: #fff;
    font-size: 2.5rem;
 }
