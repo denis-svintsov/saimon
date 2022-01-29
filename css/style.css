@@ -352,6 +352,7 @@ body._lock {
 .footer__info {
 }
 .footer__logo {
+   display: block;
    color: #fff;
    font-size: 2.5rem;
 }
@@ -1482,7 +1483,7 @@ body._lock {
    .trial__btn:hover {
       background: #fff;
       color: #6f764d;
-      border: 2px solid #6f764d;
+      border: 2px solid #fff;
    }
 
    .menu-footer__link:hover {
